@@ -1,0 +1,3 @@
+function minecraft --wraps='=cd ~/home/arian/.local/share/PrismLauncher/instances/ && open .' --wraps='cd ~/home/arian/.local/share/PrismLauncher/instances/ && open .' --wraps='cd  ~/home/arian/.local/share/PrismLauncher/instances/ && open .' --wraps='cd ~/.local/share/PrismLauncher/instances/ && open .' --wraps='cd ~/.local/share/PrismLauncher/instances/' --wraps='cd ~/.local/share/PrismLauncher/instances/ || open .' --wraps='cd ~/.local/share/PrismLauncher/instances/ &&  open .' --description 'alias minecraft=cd ~/.local/share/PrismLauncher/instances/ &&  open .'
+    cd ~/.local/share/PrismLauncher/instances/ &&  open . $argv
+end
