@@ -14,7 +14,8 @@
 
   "modules-left": [
      "custom/launcher",
-    "hyprland/workspaces"
+    "hyprland/workspaces",
+    "tray"
 
   ],
 
@@ -30,6 +31,14 @@
     "custom/power"
 
   ],
+
+
+  "tray": {
+    "spacing": 10
+
+},
+
+
 
   "hyprland/workspaces": {
     "format": "{icon}",

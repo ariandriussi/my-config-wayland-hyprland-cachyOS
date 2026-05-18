@@ -24,13 +24,25 @@ window#waybar {
  *   WORKSPACES
  * ========================= */
 
+#workspaces {
+background: rgba(15,18,25,0.85);
+
+border: 1px solid rgb(0,255,200);
+border-radius: 12px;
+padding-left: 12px;
+margin-right: 20px;
+
+
+}
+
 #workspaces button {
 background: rgba(15,18,25,0.85);
 
 border: 1px solid rgb(0,255,200);
 border-radius: 12px;
 
-padding: 0 12px;
+padding-right: 10;
+padding-left: 15;
 margin-right: 20px;
 margin-top: 12px;
 margin-bottom: 12px;
@@ -43,6 +55,21 @@ color: white;
 #workspaces button.active {
 background: rgba(255,255,255,0.2);
 }
+
+
+#tray {
+
+background: rgba(15,18,25,0.85);
+
+border: 1px solid rgb(0,255,200);
+border-radius: 12px;
+padding-left: 12px;
+padding-right: 12px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+
 
 /* =========================
  *   CLOCK
@@ -82,7 +109,7 @@ color: white;
     color: white;
 }
 #custom-launcher {
-background: rgba(15,18,25,0.85);
+background: rgba(0, 5, 8,0.85);
 
 border: 1px solid rgb(0,255,200);
 border-radius: 12px;
@@ -104,6 +131,8 @@ margin-right: 20px;
 
 color: white;
 }
+
+
 
 /* =========================
  *   CPU STATES
