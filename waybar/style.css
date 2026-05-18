@@ -1,21 +1,42 @@
 
 * {
     font-family: JetBrainsMono Nerd Font;
-    font-size: 14px;
+    font-size: 15px;
     min-height: 0;
+
 }
+
+/* =========================
+ *   WAYBAR
+ * ========================= */
 
 window#waybar {
-    background: rgba(20, 20, 20, 0.6);
-    border-radius: 12px;
-    color: white;
+
+    background: rgba(15,18,25,0.72);
+    border: 1px solid rgba(0,255,200,0.18);
+    border-radius: 10px;
+
+
+
 }
 
+/* =========================
+ *   WORKSPACES
+ * ========================= */
+
 #workspaces button {
-padding: 0 8px;
-margin: 4px;
-border-radius: 8px;
-background: transparent;
+background: rgba(15,18,25,0.85);
+
+border: 1px solid rgb(0,255,200);
+border-radius: 12px;
+
+padding: 0 12px;
+margin-right: 20px;
+margin-top: 12px;
+margin-bottom: 12px;
+
+
+
 color: white;
 }
 
@@ -23,24 +44,70 @@ color: white;
 background: rgba(255,255,255,0.2);
 }
 
+/* =========================
+ *   CLOCK
+ * ========================= */
+
 #clock {
+background: rgba(15,18,25,0.85);
 
-background: rgba (255,255,255,0.08);
+border: 1px solid rgb(0,255,200);
+border-radius: 12px;
 
+padding: 0 12px;
+margin-top: 12px;
+margin-bottom: 12px;
+
+color: white;
 }
+
+/* =========================
+ *   SYSTEM MODULES
+ * ========================= */
+
 #network,
 #pulseaudio,
-#custom-power {
-padding: 1 10px;
-margin: 4px;
+#custom-power,
+#cpu {
+
+    background: rgba(15,18,25,0.85);
+
+    border: 1px solid rgb(0,255,200);
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 0 12px;
+    margin-right: 20px;
+
+    color: white;
+}
+#custom-launcher {
+background: rgba(15,18,25,0.85);
+
+border: 1px solid rgb(0,255,200);
+border-radius: 12px;
+
+padding: 0 20px;
+margin-right: 20px;
+
+color: white;
+}
+#memory {
+background: rgba(15,18,25,0.85);
+
+border: 1px solid rgb(0,255,200);
+border-radius: 12px;
+margin-top: 12px;
+margin-bottom: 12px;
+padding: 0 12px;
+margin-right: 20px;
+
+color: white;
 }
 
-#cpu {
-    padding: 0 12px;
-    margin: 4px;
-    border-radius: 10px;
-    background: rgba (255,255,255,0.08);
-}
+/* =========================
+ *   CPU STATES
+ * ========================= */
 
 #cpu.warning {
 background: rgba(255, 200, 0, 0.2);
@@ -49,4 +116,5 @@ background: rgba(255, 200, 0, 0.2);
 #cpu.critical {
 background: rgba(255, 0, 0, 0.2);
 }
+
 
