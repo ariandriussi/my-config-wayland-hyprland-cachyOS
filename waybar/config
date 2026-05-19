@@ -24,6 +24,7 @@
   ],
 
   "modules-right": [
+  "custom/weather",
     "pulseaudio",
     "network",
     "cpu",
@@ -73,6 +74,13 @@
     "format": "{used:0.1f}G/{total:0.1f}G "
 },
 
+
+  "custom/weather": {
+"exec": "~/.config/waybar/scripts/weather/get_weather.rb",
+    "interval": 900,
+    "return-type": "json",
+    "on-click": "~/.config/waybar/scripts/weather/get_weather.rb --next"
+},
 
 
 
