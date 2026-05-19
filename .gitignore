@@ -1,0 +1,16 @@
+# Ignorar todo el contenido de .config
+*
+
+# Excepciones:
+!.config/fish/
+!.config/hypr/
+!.config/kitty/
+!.config/ranger/
+!.config/waybar/
+!.config/wlogout/
+!.config/wofi/
+
+
+
+
+
