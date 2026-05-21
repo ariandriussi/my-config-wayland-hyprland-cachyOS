@@ -11,6 +11,7 @@ La idea es ir aprendiendo Hyprland/Wayland, experimentar un poco y de paso tener
 * Kitty
 * Wlogout
 * Ranger
+* Fish
 
 ## Sistema
 
@@ -41,9 +42,44 @@ wofi/
 kitty/
 ranger/
 wlogout/
+fish/
 ```
+## Dependencias importantes
+
+```bash
+sudo pacman -S \
+hyprland \
+waybar \
+wofi \
+kitty \
+wlogout \
+ranger \
+grim \
+slurp \
+playerctl \
+pamixer \
+brightnessctl \
+jq \
+curl \
+atool \
+unrar \
+zip \
+unzip \
+p7zip
+```
+### Extras usados en la configuración
+
+- `grim + slurp` → screenshots
+- `jq + curl` → scripts/widgets para Waybar
+- `playerctl` → controles multimedia
+- `pamixer` → control de volumen
+- `brightnessctl` → brillo
+- `atool + unrar + p7zip` → compresión/descompresión en Ranger
 
 
 ## Nota
 
 Todavía sigo aprendiendo y tocando cosas constantemente, así que probablemente el repo cambie bastante con el tiempo.
+
+
+> Probado principalmente en CachyOS (Arch-based Linux).
