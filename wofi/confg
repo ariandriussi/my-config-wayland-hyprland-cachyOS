@@ -1,0 +1,8 @@
+width=700
+height=450
+location=center
+show=drun
+promp=buscar...
+allow_images=true
+term=kitty
+gtk_dark=true

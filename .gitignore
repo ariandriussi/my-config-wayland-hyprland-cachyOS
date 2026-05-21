@@ -2,13 +2,21 @@
 *
 
 # Excepciones:
-!.config/fish/
-!.config/hypr/
-!.config/kitty/
-!.config/ranger/
-!.config/waybar/
-!.config/wlogout/
-!.config/wofi/
+!fish/
+!hypr/
+!kitty/
+!ranger/
+!waybar/
+!wlogout/
+!/wofi/
+
+!fish/**
+!hypr/**
+!kitty/**
+!ranger/**
+!waybar/**
+!wlogout/**
+!/wofi/**
 
 
 
