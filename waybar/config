@@ -26,10 +26,11 @@
   "modules-right": [
   "custom/weather",
     "pulseaudio",
-    "network",
+    "custom/orbit",
     "cpu",
     "memory",
-    "custom/power"
+    "custom/power",
+
 
   ],
 
@@ -111,11 +112,7 @@
                     }
     },
 
-  "network": {
-    "format-wifi": "",
-    "format-ethernet": "󰈀",
-    "format-disconnected": "󰖪"
-  },
+
 
  "pulseaudio": {
     "format": "{volume}% {icon}",
@@ -138,10 +135,19 @@
     "ignored-sinks": ["Easy Effects Sink"]
 },
 
+"custom/orbit": {
+    "exec": "~/.config/waybar/scripts/wifi/network.sh",
+    "interval": 5,
+    "on-click": "orbit"
+},
+
+
+
   "custom/power": {
     "format": "",
     "on-click": "wlogout"
   }
+
 
 
 }

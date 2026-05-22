@@ -75,6 +75,7 @@ p7zip
 - `pamixer` → control de volumen
 - `brightnessctl` → brillo
 - `atool + unrar + p7zip` → compresión/descompresión en Ranger
+-  WiFi panel integrado usando Orbit: https://github.com/LifeOfATitan/orbit
 
 
 ## Nota
